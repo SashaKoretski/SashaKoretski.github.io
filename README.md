@@ -1,2 +1,2 @@
-# SashaKoretski.github.io
+# Корецкий Александр
 Project 1
