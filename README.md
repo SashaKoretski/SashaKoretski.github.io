@@ -1,2 +1,2 @@
 # SashaKoretski.github.io
-My first site
+Project 1
