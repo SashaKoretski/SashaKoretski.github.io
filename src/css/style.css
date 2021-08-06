@@ -1,0 +1,253 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: #442d25;
+}
+
+.logo{
+    color: #ddcfb0;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 422px;
+    float: left;
+}
+
+.menu{
+    float: left;
+    padding-left: 432px;
+}
+
+.menu li{
+    float: left;
+    color: #FFE4B5;
+    font-size: 16px;
+    line-height: 60px;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+
+.main{
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/main_tree2.png) 95% 100%/auto 90% no-repeat, url(../img/bg5.jpg) 10%;
+}
+
+.main_title{
+    float: left;
+    margin: 332px 0 0 235px;
+    color: #442d25;
+    text-align: center;
+}
+
+.main_title h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.main_title h4{
+    margin-top: 40px;
+    font-size: 22px;
+    color: #875949;
+}
+
+.main_title input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #875949;
+    margin: 10px 10px 10px 10px;
+    background: none;
+    border-radius: 5px;
+    color: #875949;
+    font-size: 13px;
+    padding: 0px 16px;
+    font-weight: bold;
+}
+
+.about_me{
+    width: 100%;
+    height: 715px;
+    background: #fffdf0;
+    box-shadow: 0px 0px 40px #000;
+}
+
+.about_me_title{
+    float: left;
+    margin: 110px 0 0 150px;
+    color: #2b1d0e;
+    text-align: center;
+}
+
+.about_me_title h2{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.about_me_title h3{
+    font-size: 26px;
+    font-weight: bold;
+    color: #a16e3b;
+}
+
+.about_me_title img{
+    height: 200px;
+    width: auto;
+    margin-top: 50px;
+    border-radius: 100px;
+}
+
+.about_me_title h5{
+    font-size: 14px;
+    margin:26px 0 40px 0;
+}
+
+.about_me_title input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #2b1d0e;
+    margin: 10px 10px 10px 10px;
+    background: none;
+    border-radius: 5px;
+    color: #875949;
+    font-size: 13px;
+    padding: 0px 16px;
+    font-weight: bold;
+}
+
+.what_can_i_do{
+    width: 100%;
+    height: 525px;
+    background: url(../img/computers_2.jpg) 100%, rgba(255, 253, 240, 0.85);
+    background-blend-mode: color;
+}
+
+.what_can_i_do_title{
+    float: left;
+    margin: 110px 0 0 460px;
+    color: #2b1d0e;
+    text-align: center;
+}
+
+.what_can_i_do_title h3{
+    font-size: 26px;
+    font-weight: bold;
+    color: #a16e3b;
+}
+
+.what_can_i_do_title h2{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.what_can_i_do_table{
+    float: left;
+    color: #2b1d0e;
+    line-height: 16px;
+    margin-right: 83px;
+}
+
+.what_can_i_do_table img{
+    height: 77px;
+    width: auto;
+    margin-top: 50px;
+}
+
+.what_can_i_do_table h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #a16e3b;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.what_can_i_do_table h5{
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.cases{
+    width: 100%;
+    height: 1077px;
+    background: #fffdf0;
+}
+
+.cases_title{
+    float: left;
+    margin: 110px 0 0 415px;
+    color: #2b1d0e;
+    text-align: center;
+}
+
+.cases_title h3{
+    font-size: 26px;
+    font-weight: bold;
+    color: #a16e3b;
+}
+
+.cases_title h2{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.cases_title h5{
+    font-size:11px;
+    margin-top: 37px;
+}
+
+.cases_title img{
+    height: 607px;
+    width: auto;
+    margin-top: 50px;
+}
+
+.cases_contacts{
+    float: bottom;
+    color: #2b1d0e;
+    text-align: left;
+    margin-top: 38px;
+}
+
+.cases_contacts h3{
+    font-size:19px;
+    text-transform: uppercase;
+}
+
+.cases_contacts h5{
+    font-size:11px;
+    margin: 11px 0px 11px 0px;
+}
+
+.cases_contacts input{
+    height: 47px;
+    text-align: center;
+    margin: 10px 0px 10px -620px;
+    background: #874d4d;
+    border-radius: 5px;
+    color: #ddcfb0;
+    font-size: 16px;
+    padding: 0px 16px;
+    font-weight: bold;
+}
+
+.cases_description{
+    float: left;
+    color: #2b1d0e;
+    text-align: left;
+    margin: -106px 0px 0px 200px;
+}
+
+.cases_description h3{
+    font-size:19px;
+    text-transform: none;
+}
+
+.cases_description h5{
+    font-size:14px;
+    margin: 11px 0px 11px 0px;
+}
