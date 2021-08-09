@@ -9,6 +9,9 @@
     
     <meta property="og:title" content="My first site">
     
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
     <title> Alexandr Koretski Web-Developer</title>
 </head>
 
@@ -29,13 +32,20 @@
         </nav>    
     </header>
     
+    <div class="main">
+    <div class="main_title">
     <h1>Hello, world<br>I'm Alexandr Koretski</h1>
     <h4>Novice web-developer</h4>
        
     <input type="submit" value="About me">
     <input type="submit" value="My works">
+    </div>
+    </div>
        
+    <div class="about_me">
+    <div class="about_me_title">
     <h2>About me</h2>
+    <h3>_____</h3>
     <img src="img/portret_fin1.jpg" alt="\(@^0^@)/" width="10%">
        
     <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum recusandae, tenetur itaque nemo, laboriosam necessitatibus rerum maxime cupiditate ut, eos animi sunt molestias alias! Vitae ratione et cumque totam eius doloremque quidem nemo odit placeat.</h5>
@@ -43,49 +53,68 @@
     <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam deserunt, magnam delectus dicta. Perferendis consectetur asperiores excepturi, ea iusto nesciunt tempore fugit delectus quisquam officia voluptates officiis.</h5>
         
     <input type="submit" value="Download my resume">
+    </div>
+    </div>
     
+    <div class="what_can_i_do">
+    <div class="what_can_i_do_title">
     <h2> What can I do</h2>
-    <table>
-        <tr>
-            <td><img src="img/comp.png" alt="▦" width="20%"></td>
-            <td><img src="img/develop.png" alt="▦" width="20%"></td>
-            <td><img src="img/CEO.png" alt="▦" width="20%"></td>
-            <td><img src="img/marketing.png" alt="▦" width="20%"></td>
-        </tr>
-        <tr>
-            <th>Web-design</th>
-            <th>Development</th>
-            <th>CEO-optimization</th>
-            <th>Marketing</th>
-        </tr>
-        <tr>
-            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, veritatis.</td>
-            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id placeat quidem quaerat, dolorem!</td>
-            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, vero, et.</td>
-            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim debitis ea dolor delectus temporibus.</td>
-        </tr>
-    </table>
+    <h3>_____</h3>
     
+    <div class="what_can_i_do_table">
+        <img src="img/comp.png" alt="▦">
+        <h3>Web-design</h3>
+        <h5>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.<br> Rerum, veritatis.</h5>
+    </div>
+    
+    <div class="what_can_i_do_table">
+        <img src="img/develop.png" alt="▦">
+        <h3>Development</h3>
+        <h5>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. <br>Id placeat quidem quaerat,<br>dolorem!</h5>
+    </div>
+    
+    <div class="what_can_i_do_table">
+        <img src="img/CEO.png" alt="▦">
+        <h3>CEO-optimization</h3>
+        <h5>Lorem ipsum dolor<br> sit amet, consectetur<br> adipisicing elit. <br>Atque, vero, et.</h5>
+    </div>
+    
+    <div class="what_can_i_do_table">
+        <img src="img/marketing.png" alt="▦">
+        <h3>Marketing</h3>
+        <h5>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. <br>Enim debitis ea dolor delectus<br> temporibus.</h5>
+    </div>
+    </div>
+    </div>
+    
+    <div class="cases">
+    <div class="cases_title">
     <h2> Cases</h2>
+    <h3>_____</h3>
     <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
     <img src="img/My_site_first_steps.jpg" alt="▦" width="30%" border="3">
     
-    <div class="site_add">
+    
+    <div class="cases_contacts">
         <h3>CLIENT:</h3>
         <h5>ME</h5>
         <h3>WEBSITE:</h3>
         <h5>sashakoretski.github.io.src</h5>
         <input type="reset" value="VISIT LIVE SITE">
-    </div>
     
-    <div class="site_add_description">
+    
+    <div class="cases_description">
         <h3>Project1</h3>
-        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi ex fugiat iusto deserunt tempore necessitatibus unde cupiditate magni quam delectus illo soluta impedit, ullam voluptates sit dolorum, amet earum. Voluptatem.</h5>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  <br> Libero, incidunt. Atque laborum molestias, <br>vitae pariatur praesentium quia sunt nam quibusdam labore eligendi <br>accusamus ex placeat voluptas doloremque ut amet, <br>officia aspernatur, possimus! <br>Eum minus repellendus consequuntur iste!</h5>
+    </div>
+    </div>
+    </div>
     </div>
     
     <h2>Price calculation</h2>
     <h3>Type</h3>
     <select name="site_type" id="list">
+        <option value="site_type0" selected disabled>Choose an option</option>
         <option value="site_type1">Online store</option>
         <option value="site_type2">Online showcase</option>
         <option value="site_type3">Blog</option>
@@ -93,6 +122,7 @@
     
     <h3>Design</h3>
     <select name="site_design" id="list">
+        <option value="site_design0" selected disabled>Choose an option</option>
         <option value="site_design1">Own</option>
         <option value="site_design2">From open access</option>
         <option value="site_design3">Registered</option>
@@ -100,6 +130,7 @@
     
     <h3>Adaptability</h3>
     <select name="site_adaptability" id="list">
+        <option value="site_adaptability0" selected disabled>Choose an option</option>
         <option value="site_adaptability1">Good</option>
         <option value="site_adaptability2">Better</option>
         <option value="site_adaptability3">The best</option>
@@ -109,27 +140,31 @@
     <h4>Price 0</h4>
     
     <h2>Some statistics</h2>
-    <table>
-        <tr>
-            <td><img src="img/smile.png" alt="▦" width="30%"></td>
-            <td><img src="img/hours_of_work.png" alt="▦" width="30%"></td>
-            <td><img src="img/check.png" alt="▦" width="30%"></td>
-            <td><img src="img/award.png" alt="▦" width="30%"></td>
-        </tr>
-        <tr>
-            <th>0</th>
-            <th>Couple</th>
-            <th>0</th>
-            <th>0</th>
-        </tr>
-        <tr>
-            <td>Happy castomers</td>
-            <td>Hours of work</td>
-            <td>Projects over</td>
-            <td>Awards</td>
-        </tr>
-    </table>
     
+    <div class="statistics">
+        <img src="img/smile.png" alt="▦">
+        <h3>0</h3>
+        <h5>Happy castomers</h5>
+    </div>
+    
+    <div class="statistics">
+        <img src="img/hours_of_work.png" alt="▦">
+        <h3>Couple</h3>
+        <h5>Hours of work</h5>
+    </div>
+    
+    <div class="statistics">
+        <img src="img/check.png" alt="▦">
+        <h3>0</h3>
+        <h5>Projects over</h5>
+    </div>
+    
+    <div class="statistics">
+        <img src="img/award.png" alt="▦">
+        <h3>0</h3>
+        <h5>Awards</h5>
+    </div>
+
     <h2>Reviews</h2>
     <img src="img/portret_fin2.jpg" alt="\(@^0^@)/" width="10%">
     <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio inventore maxime obcaecati ipsa nemo voluptatum, recusandae pariatur, commodi aliquid.</h5>
@@ -138,18 +173,20 @@
     <h2>My contacts</h2>
     <h5>Lorem ipsum dolor sit amet, consectetur adipisicing.</h5>
     
-    <table>
-        <tr>
-            <td><img src="img/place.png" alt="▦" width="30%"></td>
-            <td><img src="img/email.png" alt="▦" width="30%"></td>
-            <td><img src="img/phone.png" alt="▦" width="30%"></td>
-        </tr>
-        <tr>
-            <td>Moscow<br>Kremlin</td>
-            <td>sashakoretski@mail.ru</td>
-            <td>+7(777)777-77-77</td>
-        </tr>
-    </table>
+    <div class="contacts">
+        <img src="img/place.png" alt="▦">
+        <h4>Moscow<br>Kremlin</h4>
+    </div>
+    
+    <div class="contacts">
+        <img src="img/email.png" alt="▦">
+        <h4>sashakoretski@mail.ru</h4>
+    </div>
+    
+    <div class="contacts">
+        <img src="img/phone.png" alt="▦">
+        <h4>+7(777)777-77-77</h4>
+    </div>
     
     <form action="#">
         <input type="text" name="castomers_name" placeholder="Name">
