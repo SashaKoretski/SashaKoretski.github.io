@@ -127,21 +127,23 @@ nav{
 
 .what_can_i_do_title{
     float: left;
-    margin: 110px 0 0 460px;
+    margin: 110px 0 0 500px;
     color: #2b1d0e;
     text-align: center;
 }
 
-.what_can_i_do_title h3{
+.what_can_i_do_title h4{
     font-size: 26px;
     font-weight: bold;
     color: #a16e3b;
+    margin-left: -83px;
 }
 
 .what_can_i_do_title h2{
     font-size: 26px;
     text-transform: uppercase;
     font-weight: bold;
+    margin-left: -83px;
 }
 
 .what_can_i_do_table{
@@ -207,10 +209,10 @@ nav{
 }
 
 .cases_contacts{
-    float: bottom;
+    float: left;
     color: #2b1d0e;
     text-align: left;
-    margin-top: 38px;
+    margin: 38px 83px 0px 0px;
 }
 
 .cases_contacts h3{
@@ -226,7 +228,7 @@ nav{
 .cases_contacts input{
     height: 47px;
     text-align: center;
-    margin: 10px 0px 10px -620px;
+    margin: 10px 0px;
     background: #874d4d;
     border-radius: 5px;
     color: #ddcfb0;
@@ -235,19 +237,268 @@ nav{
     font-weight: bold;
 }
 
-.cases_description{
+.price{
+    width: 100%;
+    height: 865px;
+    background: #fffdf0;
+}
+
+.price_title{
+    float: left;
+    margin: 110px 0 0 510px;
+    color: #2b1d0e;
+    text-align: center;
+}
+
+.price_title h3{
+    font-size: 26px;
+    font-weight: bold;
+    color: #a16e3b;
+}
+
+.price_title h2{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.price_giver{
+    float: left;
+    width: 893px;
+    color: #2b1d0e;
+    text-align:justify;
+}
+
+.price_giver h5{
+    font-size:15px;
+    margin-top: 28px;
+    font-weight: bold;
+}
+
+.price_table h4{
+    font-size:25px;
+    margin-top: 53px;
+    text-transform: uppercase;
+}
+
+.price_table select{
+    height: 59px;
+    width: 893px;
+    text-align: left;
+    margin-top: 23px;
+    background: #a68471;
+    color: #241713;
+    font-size: 14px;
+    padding: 0px 16px;
+    font-weight: bold;
+
+}
+
+.statistics{
+    width: 100%;
+    height: 500px;
+    background: url(../img/statistics_bg.jpg) 100%, rgba(255, 253, 240, 0.85);
+    background-blend-mode: color;
+}
+
+.statistics_title{
+    float: left;
+    margin: 101px 0 0 490px;
+    color: #2b1d0e;
+    text-align: center;
+}
+
+.statistics_title h2{
+    font-size: 26px;
+    margin-left: -155px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.statistics_title h4{
+    font-size: 26px;
+    margin-left: -155px;
+    font-weight: bold;
+    color: #a16e3b;
+}
+
+.statistics_table{
     float: left;
     color: #2b1d0e;
+    line-height: 16px;
+    margin-right: 155px;
+}
+
+.statistics_table img{
+    height: 55px;
+    width: auto;
+    margin-top: 85px;
+}
+
+.statistics_table h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.statistics_table h5{
+    margin-top: 33px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.reviews{
+    width: 100%;
+    height: 590px;
+    background: #fffdf0;
+}
+
+.reviews_title{
+    float: left;
+    margin: 110px 0 0 571px;
+    color: #2b1d0e;
+    text-align: center;
+}
+
+.reviews_title h2{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.reviews_title h4{
+    font-size: 26px;
+    font-weight: bold;
+    color: #a16e3b;
+}
+
+.reviews_title img{
+    height: 110px;
+    width: auto;
+    margin-top: 58px;
+    border-radius: 100px;
+}
+
+.reviews_title h5{
+    font-size: 14px;
+    margin:35px 0 40px 0;
+}
+
+.reviews_title span{
+    font-weight: bold;
+}
+
+.contacts{
+    width: 100%;
+    height: 806px;
+    background: url(../img/contacts_bg.jpg) 61%, rgba(0, 0, 0, 0.7);
+    background-blend-mode: color;
+}
+
+.contacts_title{
+    float: left;
+    margin: 101px 0 0 645px;
+    color: #fffdf0;
+    text-align: center;
+}
+
+.contacts_title h2{
+    font-size: 26px;
+    margin-left: -155px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contacts_title>h4{
+    font-size: 26px;
+    margin-left: -155px;
+    font-weight: bold;
+    color: #a16e3b;
+}
+
+.contacts_title>h5{
+    margin-top: 30px;
+    margin-left: -155px;
+    font-size: 15px;
+}
+
+.contacts_table{
+    float: left;
+    color: #fffdf0;
+    line-height: 16px;
+    margin: 45px 120px 0 35px;
+}
+
+.contacts_table img{
+    height: 29px;
+    width: auto;
+}
+
+.contacts_table h4{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.contacts_message{
+    float: left;
+    color: #fffdf0;
+    line-height: 21px;
+    margin: 38px 0 0 -57px;
+}
+
+.contacts_message h3{
+    text-transform: uppercase;
+    font-size: 21px;
+}
+
+.contacts_message input[type=text]{
+    width: 355px;
+    height: 33px;
     text-align: left;
-    margin: -106px 0px 0px 200px;
+    margin: 47px 32px 0 16px;
+    background: rgba(255, 253, 240, 0.7);
+    color: #241713;
+    font-size: 16px;
+    padding: 0px 16px;
 }
 
-.cases_description h3{
-    font-size:19px;
-    text-transform: none;
+.contacts_message textarea{
+    width: 762px;
+    height: 95px;
+    text-align: left;
+    margin: 16px 0 0 -16px;
+    background: rgba(255, 253, 240, 0.7);
+    color: #241713;
+    font-size: 16px;
+    padding: 0px 16px;
 }
 
-.cases_description h5{
-    font-size:14px;
-    margin: 11px 0px 11px 0px;
+.contacts_message input[type=reset]{
+    height: 47px;
+    text-align: center;
+    margin: 30px 0px 0 -16px;
+    background: none;
+    border-radius: 5px;
+    border: 2px solid #fffdf0;
+    color: #fffdf0;
+    font-size: 16px;
+    padding: 0px 16px;
+}
+
+.copyright{
+    width: 100%;
+    height: 94px;
+    background-color: #442d25;
+}
+
+.copyright_title{
+    margin: 46px 0 0 839px;
+    float: left;
+    color: #fffdf0;
+    text-align: center;
+}
+
+.copyright_title h3{
+    font-size: 12px;
 }
