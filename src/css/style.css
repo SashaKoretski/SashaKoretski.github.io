@@ -1,3 +1,34 @@
+@keyframes logo_appearance{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes menu_appearance{
+    from{
+        opacity: 0;
+        margin: -80px 46px 0 0;
+    }
+    to{
+        opacity: 1;
+        margin: 0 46px 0 0;
+    }
+}
+
+@keyframes title_appearance{
+    from{
+        opacity: 0;
+        margin-left: -250px;
+    }
+    to{
+        opacity: 1;
+        margin-left: 235px;
+    }
+}
+
 body{
     font-family: Arial, sans-serif;
 }
@@ -6,6 +37,8 @@ nav{
     width: 100%;
     height: 60px;
     background: #442d25;
+    position: fixed;
+    z-index: 100;
 }
 
 .logo{
@@ -14,6 +47,9 @@ nav{
     line-height: 60px;
     padding-left: 422px;
     float: left;
+    -webkit-animation: logo_appearance ease 2s;
+    -o-animation: logo_appearance ease 2s;
+    animation: logo_appearance ease 2s;
 }
 
 .menu{
@@ -28,12 +64,64 @@ nav{
     line-height: 60px;
     margin-right: 40px;
     text-transform: uppercase;
+    -webkit-animation: menu_appearance 0.4s ease forwards;
+    -o-animation: menu_appearance 0.4s ease forwards;
+    animation: menu_appearance 0.4s ease forwards;
+    opacity: 0;
+}
+
+.menu li:nth-child(2){
+    animation-delay: 0.4s;
+}
+
+.menu li:nth-child(3){
+    animation-delay: 0.8s;
+}
+
+.menu li:nth-child(4){
+    animation-delay: 1.2s;
+}
+
+.menu li:nth-child(5){
+    animation-delay: 1.6s;
+}
+
+.menu li:nth-child(6){
+    animation-delay: 2s;
+}
+
+.menu li a{
+    transition: all 0.2s;
+    color: #FFE4B5;
+    transform: scale(1);
+    display: inline-block;
+}
+
+.menu li a:visited{
+    color: #FFE4B5;
+}
+
+.menu li a:hover{
+    color: #d97a7a;
+    transform: scale(1.2);
+    text-shadow: 0 0 5px #000;
+}
+
+.menu li a:active{
+    color: #d97a7a;
+    transform: scale(0.9);
+    text-shadow: none;
+}
+
+main{
+    width: 100%;
+    height: 100%;
 }
 
 .main{
     width: 100%;
-    height: calc(100% - 60px);
-    background: url(../img/main_tree2.png) 95% 100%/auto 90% no-repeat, url(../img/bg5.jpg) 10%;
+    height: 100%;
+    background: url(../img/main_tree2.png) 760px 80px/auto 860px no-repeat, url(../img/bg5.jpg) 150px;
 }
 
 .main_title{
@@ -41,6 +129,10 @@ nav{
     margin: 332px 0 0 235px;
     color: #442d25;
     text-align: center;
+    -webkit-animation: title_appearance 2s ease forwards;
+    -o-animation: title_appearance 2s ease forwards;
+    animation: title_appearance 2s ease forwards;
+    opacity: 0;
 }
 
 .main_title h1{
@@ -65,6 +157,20 @@ nav{
     font-size: 13px;
     padding: 0px 16px;
     font-weight: bold;
+    transition: all 0.1s;
+    transform: scale(1);
+}
+
+.main_title input:hover{
+    background: #875949;
+    color: #FFE4B5;
+    transform: scale(1.05);
+}
+
+.main_title input:active{
+    background: #875949;
+    color: #FFE4B5;
+    transform: scale(0.9);
 }
 
 .about_me{
@@ -108,7 +214,7 @@ nav{
 .about_me_title input{
     height: 40px;
     text-align: center;
-    border: 2px solid #2b1d0e;
+    border: 2px solid #875949;
     margin: 10px 10px 10px 10px;
     background: none;
     border-radius: 5px;
@@ -116,13 +222,27 @@ nav{
     font-size: 13px;
     padding: 0px 16px;
     font-weight: bold;
+    transition: all 0.1s;
+    transform: scale(1);
+}
+
+.about_me_title input:hover{
+    background: #875949;
+    color: #FFE4B5;
+    transform: scale(1.05);
+}
+
+.about_me_title input:active{
+     background: #875949;
+    color: #FFE4B5;
+    transform: scale(0.9);
 }
 
 .what_can_i_do{
     width: 100%;
     height: 525px;
-    background: url(../img/computers_2.jpg) 100%, rgba(255, 253, 240, 0.85);
     background-blend-mode: color;
+    background: url(../img/computers_2.jpg) 100%, rgba(255, 253, 240, 0.85);
 }
 
 .what_can_i_do_title{
@@ -230,11 +350,23 @@ nav{
     text-align: center;
     margin: 10px 0px;
     background: #874d4d;
-    border-radius: 5px;
-    color: #ddcfb0;
+    border-radius: 5px;    
+    color: #f5e0b3;
     font-size: 16px;
     padding: 0px 16px;
     font-weight: bold;
+    transition: all 0.1s;
+    transform: scale(1);
+}
+
+.cases_contacts input:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px #000;
+}
+
+.cases_contacts input:active{
+    transform: scale(0.95);
+    box-shadow: none;
 }
 
 .price{
@@ -250,7 +382,7 @@ nav{
     text-align: center;
 }
 
-.price_title h3{
+.price_title p{
     font-size: 26px;
     font-weight: bold;
     color: #a16e3b;
@@ -484,6 +616,23 @@ nav{
     color: #fffdf0;
     font-size: 16px;
     padding: 0px 16px;
+    transition: all 0.1s;
+    transform: scale(1);
+}
+
+.contacts_message input[type=reset]:hover{
+    transform: scale(1.1);
+}
+
+.contacts_message input[type=reset]:active{
+    transform: scale(0.9);
+}
+
+footer{
+    width: 100%;
+    height: 94px;
+    float:right;
+    margin-top: 60px;
 }
 
 .copyright{
@@ -502,3 +651,4 @@ nav{
 .copyright_title h3{
     font-size: 12px;
 }
+
